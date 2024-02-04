@@ -73,7 +73,8 @@
                 android:background="@drawable/input_layout"
                 android:hint="@string/loginActivity_emailPlaceholder"
                 android:inputType="textEmailAddress"
-                android:padding="@dimen/_13sdp" />
+                android:padding="@dimen/_13sdp"
+                android:autofillHints="emailAddress" />
 
             <TextView
                 android:id="@+id/textPassword"
@@ -92,14 +93,16 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/input_layout"
                 android:hint="@string/loginActivity_passwordPlaceholder"
-                android:padding="@dimen/_13sdp" />
+                android:padding="@dimen/_13sdp"
+                android:autofillHints="password"
+                tools:ignore="TextFields" />
 
             <TextView
                 android:id="@+id/forgotPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:gravity="right"
+                android:gravity="end"
                 android:text="@string/loginActivity_forgotpassword"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_14ssp"
