@@ -17,7 +17,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.02"
+        android:contentDescription="@string/loginActivity_logo" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
@@ -40,7 +41,7 @@
                 android:id="@+id/containerText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="@string/loginActivity_Title"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_30ssp"
@@ -59,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_25sdp"
-                android:text="Email"
+                android:text="@string/loginActivity_emailText"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_16ssp"
                 android:textStyle="bold" />
@@ -70,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/input_layout"
-                android:hint="Inserir email..."
+                android:hint="@string/loginActivity_emailPlaceholder"
                 android:inputType="textEmailAddress"
                 android:padding="@dimen/_13sdp" />
 
@@ -79,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_30sdp"
-                android:text="Password"
+                android:text="@string/loginActivity_passwordText"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_16ssp"
                 android:textStyle="bold" />
@@ -90,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/input_layout"
-                android:hint="Inserir password..."
+                android:hint="@string/loginActivity_passwordPlaceholder"
                 android:padding="@dimen/_13sdp" />
 
             <TextView
@@ -99,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:gravity="right"
-                android:text="forgot password"
+                android:text="@string/loginActivity_forgotpassword"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_14ssp"
                 android:textStyle="bold" />
@@ -111,7 +112,7 @@
                 android:layout_marginTop="@dimen/_25sdp"
                 android:background="@drawable/bluebtn"
                 android:padding="@dimen/_7sdp"
-                android:text="Login"
+                android:text="@string/loginActivity_loginBtn"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_20ssp" />
@@ -123,7 +124,7 @@
         android:id="@+id/createAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Não tem conta? Registe-se!"
+        android:text="@string/loginActivity_createAccount"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="@dimen/_15ssp"

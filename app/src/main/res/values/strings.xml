@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">GlobalPC</string>
+    <!-- Login Activity -->
+    <string name="app_name" translatable="false">GlobalPC</string>
+    <string name="loginActivity_logo">logo da globalPC</string>
+    <string name="loginActivity_Title">Iniciar Sessão</string>
+    <string name="loginActivity_emailText" translatable="false">Email</string>
+    <string name="loginActivity_emailPlaceholder">Inserir email…</string>
+    <string name="loginActivity_passwordText">Palavra-passe</string>
+    <string name="loginActivity_passwordPlaceholder">Inserir password…</string>
+    <string name="loginActivity_forgotpassword">esqueci a password</string>
+    <string name="loginActivity_loginBtn">Iniciar Sessão</string>
+    <string name="loginActivity_createAccount">Não tem conta? Registe-se!</string>
+
+    <!-- Register Activity -->
 </resources>
