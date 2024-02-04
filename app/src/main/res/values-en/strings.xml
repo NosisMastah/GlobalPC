@@ -2,9 +2,9 @@
 <resources>
     <string name="loginActivity_logo">logo of GlobalPC</string>
     <string name="loginActivity_Title">Login</string>
-    <string name="loginActivity_emailPlaceholder">Insert email...</string>
+    <string name="loginActivity_emailPlaceholder">Insert email…</string>
     <string name="loginActivity_passwordText">Password</string>
-    <string name="loginActivity_passwordPlaceholder">Insert password...</string>
+    <string name="loginActivity_passwordPlaceholder">Insert password…</string>
     <string name="loginActivity_forgotpassword">forgot password</string>
     <string name="loginActivity_loginBtn">Login</string>
     <string name="loginActivity_createAccount">Don\'t have an account? Register!</string>
