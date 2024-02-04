@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "786203898867",
+    "project_id": "globalpc-af57e",
+    "storage_bucket": "globalpc-af57e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786203898867:android:b8a25a7012d05e24841886",
+        "android_client_info": {
+          "package_name": "com.example.globalpc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7eNc-pVbw-3nSSvFN1MjUSzC9B69SXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
