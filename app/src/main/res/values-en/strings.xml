@@ -8,4 +8,10 @@
     <string name="loginActivity_forgotpassword">forgot password</string>
     <string name="loginActivity_loginBtn">Login</string>
     <string name="loginActivity_createAccount">Don\'t have an account? Register!</string>
+    <string name="registerActivity_Title">Create Account</string>
+    <string name="registerActivity_registBtn">Create Account</string>
+    <string name="registerActivity_usernameText">Username</string>
+    <string name="registerActivity_usernamePlaceholder">Insert username…</string>
+    <string name="registerActivity_repeatPasswordText">Confirm password</string>
+    <string name="registerActivity_loginAccount">Do you already have an account? Log in!</string>
 </resources>

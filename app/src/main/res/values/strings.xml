@@ -12,4 +12,10 @@
     <string name="loginActivity_createAccount">Não tem conta? Registe-se!</string>
 
     <!-- Register Activity -->
+    <string name="registerActivity_Title">Criar Conta</string>
+    <string name="registerActivity_usernameText">Nome</string>
+    <string name="registerActivity_usernamePlaceholder">Inserir nome…</string>
+    <string name="registerActivity_repeatPasswordText">Confirmar Palavra-Passe</string>
+    <string name="registerActivity_registBtn">Criar Conta</string>
+    <string name="registerActivity_loginAccount">Já tens conta? Faz login!</string>
 </resources>

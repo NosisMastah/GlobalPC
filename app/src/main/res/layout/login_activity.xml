@@ -30,6 +30,7 @@
         app:cardElevation="@dimen/_50sdp"
         app:layout_constraintTop_toBottomOf="@+id/logo">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,8 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_6sdp"
                 android:layout_marginLeft="@dimen/_65sdp"
-                android:layout_marginTop="@dimen/_12sdp"
                 android:layout_marginRight="@dimen/_65sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:background="@color/btnBackground" />
 
             <TextView
@@ -97,17 +98,6 @@
                 android:autofillHints="password"
                 tools:ignore="TextFields" />
 
-            <TextView
-                android:id="@+id/forgotPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:gravity="end"
-                android:text="@string/loginActivity_forgotpassword"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_14ssp"
-                android:textStyle="bold" />
-
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/loginBtn"
                 android:layout_width="match_parent"
@@ -136,33 +126,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="439dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="434dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="443dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="1.0" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
