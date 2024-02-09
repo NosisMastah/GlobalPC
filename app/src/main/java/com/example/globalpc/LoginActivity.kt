@@ -64,7 +64,7 @@ class LoginActivity : Activity() {
     }
 
     private fun exibirToast(mensagem: String) {
-        // Crie e exiba o Toast
+        // Cria e exibe o Toast
         Toast.makeText(this, mensagem, Toast.LENGTH_SHORT).show()
     }
 }

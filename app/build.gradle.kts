@@ -78,6 +78,7 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.7.1"))     // Import the Firebase BoM
     implementation("com.google.firebase:firebase-analytics")                // Analytics
     implementation("com.google.firebase:firebase-auth-ktx")                 // Authentication
+    implementation("com.google.firebase:firebase-firestore-ktx")            // Cloud Firestore
 
     // Link with dependents
     // https://firebase.google.com/docs/android/setup#available-libraries
