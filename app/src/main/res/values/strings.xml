@@ -13,9 +13,15 @@
 
     <!-- Register Activity -->
     <string name="registerActivity_Title">Criar Conta</string>
-    <string name="registerActivity_usernameText">Nome</string>
+
+    <string name="registerActivity_usernameText">Nome*</string>
     <string name="registerActivity_usernamePlaceholder">Inserir nome…</string>
-    <string name="registerActivity_repeatPasswordText">Confirmar Palavra-Passe</string>
+
+    <string name="registerActivity_emailText" translatable="false">Email*</string>
+
+    <string name="registerActivity_passwordText">Palavra-passe*</string>
+    <string name="registerActivity_repeatPasswordText">Confirmar Palavra-Passe*</string>
+
     <string name="registerActivity_registBtn">Criar Conta</string>
     <string name="registerActivity_loginAccount">Já tens conta? Faz login!</string>
 </resources>
